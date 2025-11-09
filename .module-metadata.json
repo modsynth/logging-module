@@ -1,0 +1,47 @@
+{
+  "name": "logging-module",
+  "version": "0.1.0",
+  "description": "Structured logging module for Go using Zap",
+  "type": "library",
+  "language": "go",
+  "category": "backend",
+  "maintainers": [
+    {
+      "name": "Modsynth Team"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/modsynth/logging-module.git"
+  },
+  "dependencies": {
+    "runtime": [],
+    "external": [
+      "go.uber.org/zap"
+    ]
+  },
+  "techStack": [
+    "Go",
+    "Zap"
+  ],
+  "features": [
+    "Structured logging with Zap",
+    "Multiple log levels",
+    "JSON and console output",
+    "Context-aware logging",
+    "Performance optimized"
+  ],
+  "api": {
+    "stability": "experimental",
+    "breaking_changes": []
+  },
+  "documentation": {
+    "readme": "README.md",
+    "godoc": true
+  },
+  "tags": [
+    "logging",
+    "zap",
+    "structured-logging"
+  ]
+}
